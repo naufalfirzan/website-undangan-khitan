@@ -991,7 +991,7 @@ img.hover-shadow {
     z-index: 100 !important;
     font-weight: 400 !important;
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
     text-align: center;
     border-top: 0.8px solid var(--grey);
     padding: 10px;
@@ -1001,4 +1001,22 @@ img.hover-shadow {
 .link i{
  color: #fff;
  font-size: 28px;
+}
+
+.img-bank{
+width: 300px;
+max-height: 300px;
+}
+.no-rek{
+    display: block;
+    outline: none;
+    border: none;
+    text-align: center;
+    margin: auto;
+}
+.btn-copy{
+  background-color: #e3c46d;
+  color: #ffffff;
+  padding: 6px 10px;
+  font-weight: 700;
 }
